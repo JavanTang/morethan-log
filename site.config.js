@@ -24,13 +24,14 @@ const CONFIG = {
 
   // CONFIG configration (required)
   link: "https://morethan-log.vercel.app",
-  // since: 2022, // If leave this empty, current year will be used.
+  since: 2022, // If leave this empty, current year will be used.
   lang: "zh-CN", // ['en-US', 'zh-CN', 'zh-HK', 'zh-TW', 'ja-JP', 'es-ES', 'ko-KR']
   ogImageGenerateURL: "https://og-image-korean.vercel.app", // The link to generate OG image, don't end with a slash
 
   // notion configuration (required)
   notionConfig: {
-    pageId: process.env.NOTION_PAGE_ID,
+    // pageId: process.env.NOTION_PAGE_ID,
+    pageId:'2daa75b4360f489bba282935e5359f07'
   },
 
   // plugin configuration (optional)
